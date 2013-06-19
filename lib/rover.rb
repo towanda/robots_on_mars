@@ -18,7 +18,7 @@ class Rover
   def rotate_right; @facin_index += 1; end
 
   def move
-    check_limits { |x, y|  @x, @y = x, y }
+    check_limits {|x, y| @x, @y = x, y }
   end
 
   def position
