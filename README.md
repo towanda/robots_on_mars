@@ -1,6 +1,6 @@
 Robots On Mars
 ==========
-Two little robots try to find each other on the surface of mars. Xing interstellar corporation has different plans for them.
+Two little robots try to find each other on the surface of mars.
 
 <pre>
      -+-             .___.

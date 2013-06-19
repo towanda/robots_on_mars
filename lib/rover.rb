@@ -37,7 +37,7 @@ class Rover
 
   def check_limits
     x, y  = send("move_#{orientation.downcase}")
-    yield(x, y) if x.between?( 0, @top_x) and y.between?( 0, @top_y)
+    yield(x, y) if x.between?(0, @top_x) and y.between?(0, @top_y)
   end
 
   def move_north;  [@x, @y + 1]; end
